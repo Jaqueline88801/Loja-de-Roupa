@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Roupas</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Loja de Roupas</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-vindo à Loja de Roupas!</h2>
+                <p>Confira as últimas tendências da moda com preços incríveis.</p>
+                <a href="#produtos" class="btn">Ver Produtos</a>
+            </div>
+        </section>
+
+        <section id="produtos" class="produtos">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="grid">
+                    <div class="produto">
+                        <img src="CAMISA.webp" alt="Camiseta">
+                        <h3>Camiseta Estilosa</h3>
+                        <p>R$ 59,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="produto">
+                        <img src="JEANS.jpg" alt="Calça">
+                        <h3>Calça Jeans</h3>
+                        <p>R$ 119,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="produto">
+                        <img src="Jaqueta.jpg" alt="Jaqueta">
+                        <h3>Jaqueta de Couro</h3>
+                        <p>R$ 299,90</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma loja de roupas dedicada a oferecer o melhor da moda para você. Nossa missão é trazer estilo e conforto ao seu dia a dia.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <form>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Loja de Roupas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
